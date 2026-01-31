@@ -8,486 +8,415 @@
   <meta content="" name="description">
   <meta content="" name="keywords">
 
-  <!-- Favicons -->
-  <link href="assets/img/FB_IMG_1681136732237.jpg" rel="icon">
-  <link href="assets/img/apple-touch-icon.png" rel="apple-touch-icon">
-
-  <!-- Fonts -->
-  <link href="https://fonts.googleapis.com" rel="preconnect">
-  <link href="https://fonts.gstatic.com" rel="preconnect" crossorigin>
-  <link
-    href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Raleway:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap"
-    rel="stylesheet">
-
-  <!-- Vendor CSS Files -->
-  <link href="assets/vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet">
-  <link href="assets/vendor/bootstrap-icons/bootstrap-icons.css" rel="stylesheet">
-  <link href="assets/vendor/aos/aos.css" rel="stylesheet">
-  <link href="assets/vendor/glightbox/css/glightbox.min.css" rel="stylesheet">
-  <link href="assets/vendor/swiper/swiper-bundle.min.css" rel="stylesheet">
+  <!-- ==========Slick Slider============ -->
+   <link rel="stylesheet" type="text/css" href="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.8.1/slick.min.css" />
+<link rel="stylesheet" type="text/css" href="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.8.1/slick-theme.min.css" />
 
   <!-- Main CSS File -->
   <link href="assets/css/main.css" rel="stylesheet">
 
-  <!-- =======================================================
-  * Template Name: iPortfolio
-  * Template URL: https://bootstrapmade.com/iportfolio-bootstrap-portfolio-websites-template/
-  * Updated: Jun 29 2024 with Bootstrap v5.3.3
-  * Author: BootstrapMade.com
-  * License: https://bootstrapmade.com/license/
-  ======================================================== -->
 </head>
 
 <body class="index-page">
 
-  <header id="header" class="header dark-background d-flex flex-column">
-    <i class="header-toggle d-xl-none bi bi-list"></i>
+<!-- ================Header================== -->
 
-    <div class="profile-img">
-      <img src="assets/img/FB_IMG_1681136732237.jpg" alt="" class="img-fluid rounded-circle">
-    </div>
+  <header>
+    <nav class="navbar">
+        <div class="logo">
+            <img src="https://via.placeholder.com/40" alt="logo">
+            <span>Olivia.</span>
+        </div>
 
-    <a href="index.html" class="logo d-flex align-items-center justify-content-center">
-      <!-- Uncomment the line below if you also wish to use an image logo -->
-      <!-- <img src="assets/img/logo.png" alt=""> -->
-      <h1 class="sitename">Nasir</h1>
-    </a>
+        <ul class="nav-links" id="navLinks">
+            <li><a class="active" href="#">Home</a></li>
+            <li><a href="#">Services</a></li>
+            <li><a href="#">About</a></li>
+            <li><a href="#">Projects</a></li>
+            <li><a href="#">Blogs</a></li>
+            <li><a href="#">Testimonials</a></li>
+        </ul>
 
-    <div class="social-links text-center">
-      <a href="#" class="twitter"><i class="bi bi-twitter-x"></i></a>
-      <a href="https://www.facebook.com/profile.php?id=100026804529862" class="facebook"><i class="bi bi-facebook"></i></a>
-      <a href="https://www.instagram.com/m.nasir.kamal/" class="instagram"><i class="bi bi-instagram"></i></a>
-      <a href="https://www.linkedin.com/in/nasir-kamal-3641832b2/" class="linkedin"><i class="bi bi-linkedin"></i></a>
-    </div>
+        <a href="#" class="contact-btn">Contact Me</a>
 
-    <nav id="navmenu" class="navmenu">
-      <ul>
-        <li><a href="#hero" class="active"><i class="bi bi-house navicon"></i>Home</a></li>
-        <li><a href="#about"><i class="bi bi-person navicon"></i> About</a></li>
-        <li><a href="#portfolio"><i class="bi bi-images navicon"></i> Portfolio</a></li>
-        <li><a href="#services"><i class="bi bi-hdd-stack navicon"></i> Services</a></li>
-        <li><a href="#contact"><i class="bi bi-envelope navicon"></i> Contact</a></li>
-      </ul>
+        <!-- Mobile Menu Toggle -->
+        <div class="hamburger" id="hamburger">
+            ☰
+        </div>
     </nav>
-
-  </header>
-
-  <main class="main">
-
-    <!-- Hero Section -->
-    <section id="hero" class="hero section dark-background">
-
-      <img src="assets/img/nasir.jpg" alt="" data-aos="fade-in" class="">
-
-      <div class="container" data-aos="fade-up" data-aos-delay="100">
-        <h2>Nasir kamal</h2>
-        <p>I'm <span class="typed" data-typed-items=" Developer,">Develpor</span><span
-            class="typed-cursor typed-cursor--blink" aria-hidden="true"></span><span
-            class="typed-cursor typed-cursor--blink" aria-hidden="true"></span></p>
-      </div>
-
-    </section><!-- /Hero Section -->
-
-    <!-- About Section -->
-    <section id="about" class="about section">
-
-      <!-- Section Title -->
-      <div class="container section-title" data-aos="fade-up">
-        <h2>About</h2>
-        <p>I am a skilled web developer with expertise in HTML, CSS, JavaScript, PHP and MySQL, creating responsive and
-          dynamic websites. With a focus on learning and growth.</p>
-      </div><!-- End Section Title -->
-
-      <div class="container" data-aos="fade-up" data-aos-delay="100">
-
-        <div class="row gy-4 justify-content-center">
-          <div class="col-lg-4">
-            <img src="assets/img/IMG_1598.jpg" class="img-fluid" alt="">
-          </div>
-          <div class="col-lg-8 content">
-            <h2>Web Developer.</h2>
-            <p class="fst-italic py-3">
-              My work reflects creativity, problem-solving, and a commitment to learning, making me a versatile and
-              dedicated developer..
-            </p>
-            <div class="row">
-              <div class="col-lg-6">
-                <ul>
-                  <li><i class="bi bi-chevron-right"></i> <strong>Birthday:</strong> <span>15 October 2007</span></li>
-                  <li><i class="bi bi-chevron-right"></i> <strong>Website:</strong> <span>www.example.com</span></li>
-                  <li><i class="bi bi-chevron-right"></i> <strong>Phone:</strong> <span>+92 370 6695202</span></li>
-                  <li><i class="bi bi-chevron-right"></i> <strong>City:</strong> <span>Faisalabad, Pakistan</span></li>
-                </ul>
-              </div>
-              <div class="col-lg-6">
-                <ul>
-                  <li><i class="bi bi-chevron-right"></i> <strong>Age:</strong> <span>18</span></li>
-                  <li><i class="bi bi-chevron-right"></i> <strong>Degree:</strong> <span>FullStack Web Development</span></li>
-                  <li><i class="bi bi-chevron-right"></i> <strong>Email:</strong> <span>nasirkamal2007@gmail.com</span>
-                  </li>
-                  <li><i class="bi bi-chevron-right"></i> <strong>Freelance:</strong> <span>Available</span></li>
-                </ul>
-              </div>
-            </div>
-            <p class="py-3">
-
-            </p>
-          </div>
-        </div>
-
-      </div>
-
-    </section><!-- /About Section -->
-
-    <!-- Stats Section -->
-    <!-- /Stats Section -->
-
-    <!-- Skills Section -->
-    <section id="skills" class="skills section light-background">
-
-      <!-- Section Title -->
-      <div class="container section-title" data-aos="fade-up">
-        <h2>Skills</h2>
-        <p>Necessitatibus eius consequatur ex aliquid fuga eum quidem sint consectetur velit</p>
-      </div><!-- End Section Title -->
-
-      <div class="container" data-aos="fade-up" data-aos-delay="100">
-
-        <div class="row skills-content skills-animation">
-
-          <div class="col-lg-6">
-
-            <div class="progress">
-              <span class="skill"><span>PHP</span> <i class="val">80%</i></span>
-              <div class="progress-bar-wrap">
-                <div class="progress-bar" role="progressbar" aria-valuenow="80" aria-valuemin="0" aria-valuemax="100">
-                </div>
-              </div>
-            </div><!-- End Skills Item -->
-
-            <div class="progress">
-              <span class="skill"><span>CSS</span> <i class="val">90%</i></span>
-              <div class="progress-bar-wrap">
-                <div class="progress-bar" role="progressbar" aria-valuenow="90" aria-valuemin="0" aria-valuemax="100">
-                </div>
-              </div>
-            </div><!-- End Skills Item -->
-
-            <div class="progress">
-              <span class="skill"><span>JavaScript</span> <i class="val">70%</i></span>
-              <div class="progress-bar-wrap">
-                <div class="progress-bar" role="progressbar" aria-valuenow="70" aria-valuemin="0" aria-valuemax="100">
-                </div>
-              </div>
-            </div><!-- End Skills Item -->
-
-          </div>
-
-          <div class="col-lg-6">
-
-            <div class="progress">
-              <span class="skill"><span>Vue.Js</span> <i class="val">65%</i></span>
-              <div class="progress-bar-wrap">
-                <div class="progress-bar" role="progressbar" aria-valuenow="65" aria-valuemin="0" aria-valuemax="100">
-                </div>
-              </div>
-            </div><!-- End Skills Item -->
-
-            <div class="progress">
-              <span class="skill"><span>Laravel</span> <i class="val">70%</i></span>
-              <div class="progress-bar-wrap">
-                <div class="progress-bar" role="progressbar" aria-valuenow="70" aria-valuemin="0" aria-valuemax="100">
-                </div>
-              </div>
-            </div><!-- End Skills Item -->
-
-            <div class="progress">
-              <span class="skill"><span>Bootstrap</span> <i class="val">90%</i></span>
-              <div class="progress-bar-wrap">
-                <div class="progress-bar" role="progressbar" aria-valuenow="90" aria-valuemin="0" aria-valuemax="100">
-                </div>
-              </div>
-            </div><!-- End Skills Item -->
-
-          </div>
-
-        </div>
-
-      </div>
-
-    </section><!-- /Skills Section -->
-
-    <!-- Resume Section -->
-    <!-- /Resume Section -->
-
-    <!-- Portfolio Section -->
-    <section id="portfolio" class="portfolio section light-background">
-
-      <!-- Section Title -->
-      <div class="container section-title" data-aos="fade-up">
-        <h2>Portfolio</h2>
-        <p>"Explore my diverse portfolio of web development projects, showcasing responsive designs, dynamic
-          functionalities, and seamless user experiences."</p>
-      </div><!-- End Section Title -->
-
-      <div class="container">
-
-        <div class="isotope-layout" data-default-filter="*" data-layout="masonry" data-sort="original-order">
-
-          <ul class="portfolio-filters isotope-filters" data-aos="fade-up" data-aos-delay="100">
-            <li data-filter="*" class="filter-active">All</li>
-            <!-- <li data-filter=".filter-app">App</li>
-            <li data-filter=".filter-product">Product</li>
-            <li data-filter=".filter-branding">Branding</li>
-            <li data-filter=".filter-books">Books</li> -->
-          </ul><!-- End Portfolio Filters -->
-
-          <div class="row gy-4 isotope-container" data-aos="fade-up" data-aos-delay="200">
-
-            <div class="col-lg-4 col-md-6 portfolio-item isotope-item filter-app">
-              <div class="portfolio-content h-100">
-                <img src="assets/img/rarreglove.png" class="img-fluid" alt="">
-                <div class="portfolio-info">
-                  <h4>App 1</h4>
-                  <p>Lorem ipsum, dolor sit amet consectetur</p>
-                  <a href="assets/img/rarreglove.png" title="App 1" data-gallery="portfolio-gallery-app"
-                    class="glightbox preview-link"><i class="bi bi-zoom-in"></i></a>
-                  <a href="https://csoft.live/raregloves/" title="More Details" class="details-link"><i
-                      class="bi bi-link-45deg"></i></a>
-                </div>
-              </div>
-            </div><!-- End Portfolio Item -->
-
-            <div class="col-lg-4 col-md-6 portfolio-item isotope-item filter-product">
-              <div class="portfolio-content h-100">
-                <img src="assets/img/Screenshot (158).png" class="img-fluid" alt="">
-                <div class="portfolio-info">
-                  <h4>Product 1</h4>
-                  <p>Lorem ipsum, dolor sit amet consectetur</p>
-                  <a href="assets/img/Screenshot (158).png" title="Product 1" data-gallery="portfolio-gallery-product"
-                    class="glightbox preview-link"><i class="bi bi-zoom-in"></i></a>
-                  <a href="https://csoft.live/1stcare247/" title="More Details" class="details-link"><i
-                      class="bi bi-link-45deg"></i></a>
-                </div>
-              </div>
-            </div><!-- End Portfolio Item -->
-
-            <div class="col-lg-4 col-md-6 portfolio-item isotope-item filter-branding">
-              <div class="portfolio-content h-100">
-                <img src="assets/img/apz.png" class="img-fluid" alt="">
-                <div class="portfolio-info">
-                  <h4>Branding 1</h4>
-                  <p>Lorem ipsum, dolor sit amet consectetur</p>
-                  <a href="assets/img/apz.png" title="Branding 1" data-gallery="portfolio-gallery-branding"
-                    class="glightbox preview-link"><i class="bi bi-zoom-in"></i></a>
-                  <a href="https://csoft.live/apexpropertyzone/" title="More Details" class="details-link"><i
-                      class="bi bi-link-45deg"></i></a>
-                </div>
-              </div>
-            </div><!-- End Portfolio Item -->
-
-            <div class="col-lg-4 col-md-6 portfolio-item isotope-item filter-books">
-              <div class="portfolio-content h-100">
-                <img src="assets/img/zufa.png" class="img-fluid" alt="">
-                <div class="portfolio-info">
-                  <h4>Books 1</h4>
-                  <p>Lorem ipsum, dolor sit amet consectetur</p>
-                  <a href="assets/img/zufa.png" title="Branding 1" data-gallery="portfolio-gallery-book"
-                    class="glightbox preview-link"><i class="bi bi-zoom-in"></i></a>
-                  <a href="https://csoft.live/zufa/" title="More Details" class="details-link"><i
-                      class="bi bi-link-45deg"></i></a>
-                </div>
-              </div>
-            </div><!-- End Portfolio Item -->
-
-          </div><!-- End Portfolio Container -->
-
-        </div>
-
-      </div>
-
-    </section><!-- /Portfolio Section -->
-
-    <!-- Services Section -->
-    <section id="services" class="services section">
-
-      <!-- Section Title -->
-      <div class="container section-title" data-aos="fade-up">
-        <h2>Services</h2>
-        <p>Whether you need a simple website or a complex web application, my services are focused on creating scalable and high-performing solutions.</p>
-      </div><!-- End Section Title -->
-
-      <div class="container">
-
-        <div class="row gy-4">
-
-
-          <!-- End Service Item -->
-
-          <div class="col-lg-4 col-md-6 service-item d-flex" data-aos="fade-up" data-aos-delay="200">
-            <div class="icon flex-shrink-0"><i class="bi bi-card-checklist"></i></div>
-            <div>
-              <h4 class="title"><a href="#" class="stretched-link">Dynamic Web Applications</a></h4>
-              <p class="description">Highlights projects with advanced functionalities like admin panels and user
-                interactions.</p>
-            </div>
-          </div><!-- End Service Item -->
-
-          <div class="col-lg-4 col-md-6 service-item d-flex" data-aos="fade-up" data-aos-delay="300">
-            <div class="icon flex-shrink-0"><i class="bi bi-bar-chart"></i></div>
-            <div>
-              <h4 class="title"><a href="#" class="stretched-link">E-commerce Solutions</a></h4>
-              <p class="description">Displays your experience in creating online stores and integrating payment
-                gateways.</p>
-            </div>
-          </div><!-- End Service Item -->
-
-          <div class="col-lg-4 col-md-6 service-item d-flex" data-aos="fade-up" data-aos-delay="100">
-            <div class="icon flex-shrink-0"><i class="bi bi-briefcase"></i></div>
-            <div>
-              <h4 class="title"><a href="#" class="stretched-link">Responsive Website</a></h4>
-              <p class="description">Showcases your work on mobile-friendly and visually appealing websites.</p>
-            </div>
-          </div>
-        </div>
-
-      </div>
-
-    </section><!-- /Services Section -->
-
-    <!-- Testimonials Section -->
-    <!-- /Testimonials Section -->
-
-    <!-- Contact Section -->
-    <section id="contact" class="contact section">
-
-      <!-- Section Title -->
-      <div class="container section-title" data-aos="fade-up">
-        <h2>Contact</h2>
-        <p>Whether you have a question, need a quote, or just want to say hi, I’d love to hear from you!</p>
-      </div><!-- End Section Title -->
-
-      <div class="container" data-aos="fade-up" data-aos-delay="100">
-
-        <div class="row gy-4">
-
-          <div class="col-lg-5">
-
-            <div class="info-wrap">
-              <div class="info-item d-flex" data-aos="fade-up" data-aos-delay="200">
-                <i class="bi bi-geo-alt flex-shrink-0"></i>
-                <div>
-                  <h3>Address</h3>
-                  <p>Bawa chack, Faisalabad, Pakistan</p>
-                </div>
-              </div><!-- End Info Item -->
-
-              <div class="info-item d-flex" data-aos="fade-up" data-aos-delay="300">
-                <i class="bi bi-telephone flex-shrink-0"></i>
-                <div>
-                  <h3>Call Us</h3>
-                  <p>+92 315 0841514</p>
-                </div>
-              </div><!-- End Info Item -->
-
-              <div class="info-item d-flex" data-aos="fade-up" data-aos-delay="400">
-                <i class="bi bi-envelope flex-shrink-0"></i>
-                <div>
-                  <h3>Email Us</h3>
-                  <p>nasirkamal2007@gmail.com</p>
-                </div>
-              </div><!-- End Info Item -->
-              <iframe
-                src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d13610.43677539849!2d73.07024834295729!3d31.479934987446!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x392242043856f687%3A0x64c9e62860252289!2sBawa%20Chack%20120%20JB%2C%20Faisalabad%2C%20Punjab%2C%20Pakistan!5e0!3m2!1sen!2s!4v1734521425262!5m2!1sen!2s"
-                frameborder="0" style="border:0; width: 100%; height: 270px;" allowfullscreen="" loading="lazy"
-                referrerpolicy="no-referrer-when-downgrade"></iframe>
-            </div>
-          </div>
-
-          <div class="col-lg-7">
-            <form action="forms/contact.php" method="post" class="php-email-form" data-aos="fade-up"
-              data-aos-delay="200">
-              <div class="row gy-4">
-
-                <div class="col-md-6">
-                  <label for="name-field" class="pb-2">Your Name</label>
-                  <input type="text" name="name" id="name-field" class="form-control" required="">
-                </div>
-
-                <div class="col-md-6">
-                  <label for="email-field" class="pb-2">Your Email</label>
-                  <input type="email" class="form-control" name="email" id="email-field" required="">
-                </div>
-
-                <div class="col-md-12">
-                  <label for="subject-field" class="pb-2">Subject</label>
-                  <input type="text" class="form-control" name="subject" id="subject-field" required="">
-                </div>
-
-                <div class="col-md-12">
-                  <label for="message-field" class="pb-2">Message</label>
-                  <textarea class="form-control" name="message" rows="10" id="message-field" required=""></textarea>
-                </div>
-
-                <div class="col-md-12 text-center">
-                  <div class="loading">Loading</div>
-                  <div class="error-message"></div>
-                  <div class="sent-message">Your message has been sent. Thank you!</div>
-
-                  <button type="submit">Send Message</button>
-                </div>
-
-              </div>
-            </form>
-          </div><!-- End Contact Form -->
-
-        </div>
-
-      </div>
-
-    </section><!-- /Contact Section -->
-
-  </main>
-
-  <footer id="footer" class="footer position-relative light-background">
-
-    <div class="container">
-      <div class="copyright text-center ">
-        <p>© <span>Copyright</span> <strong class="px-1 sitename">NasirKamal</strong> <span>All Rights Reserved</span>
-        </p>
-      </div>
-      <div class="credits">
-        <!-- All the links in the footer should remain intact. -->
-        <!-- You can delete the links only if you've purchased the pro version. -->
-        <!-- Licensing information: https://bootstrapmade.com/license/ -->
-        <!-- Purchase the pro version with working PHP/AJAX contact form: [buy-url] -->
-        
+</header>
+
+  <!-- ===============sections================== -->
+
+   <section class="hero container">
+    <div class="hero-content">
+      <p class="tag">👋 Hello There!</p>
+
+      <h1>
+        I’m <span>NASIR KAMAL</span>, <br>
+        Product Designer <br>
+        Based in USA.
+      </h1>
+
+      <p class="desc">
+        I'm an experienced Product Designer with 10+ years in the
+        field, collaborating with various companies and startups.
+      </p>
+
+      <div class="btn-group">
+        <!-- From Uiverse.io by Creatlydev -->
+        <button href="#" class="button" style="--clr: #7808d0">
+          <span class="button__icon-wrapper">
+            <svg viewBox="0 0 14 15" fill="none" xmlns="http://www.w3.org/2000/svg" class="button__icon-svg" width="10">
+              <path
+                d="M13.376 11.552l-.264-10.44-10.44-.24.024 2.28 6.96-.048L.2 12.56l1.488 1.488 9.432-9.432-.048 6.912 2.304.024z"
+                fill="currentColor"></path>
+            </svg>
+
+            <svg viewBox="0 0 14 15" fill="none" width="10" xmlns="http://www.w3.org/2000/svg"
+              class="button__icon-svg button__icon-svg--copy">
+              <path
+                d="M13.376 11.552l-.264-10.44-10.44-.24.024 2.28 6.96-.048L.2 12.56l1.488 1.488 9.432-9.432-.048 6.912 2.304.024z"
+                fill="currentColor"></path>
+            </svg>
+          </span>
+          View My Portfolio
+        </button>
+
+        <a href="#" class="link"><span>+</span>Hire Me</a>
       </div>
     </div>
 
-  </footer>
+    <!-- Right Side Image -->
+    <div class="hero-image">
+      <div class="bg-circle"></div>
+      <img src="assets\img\Untitled design (20).png" alt="hero">
 
-  <!-- Scroll Top -->
-  <a href="#" id="scroll-top" class="scroll-top d-flex align-items-center justify-content-center"><i
-      class="bi bi-arrow-up-short"></i></a>
+      <!-- <div class="badge badge1">UI/UX Designer</div>
+      <div class="badge badge2">Product Designer</div> -->
+    </div>
+  </section>
 
-  <!-- Preloader -->
-  <div id="preloader"></div>
 
-  <!-- Vendor JS Files -->
-  <script src="assets/vendor/bootstrap/js/bootstrap.bundle.min.js"></script>
-  <script src="assets/vendor/php-email-form/validate.js"></script>
-  <script src="assets/vendor/aos/aos.js"></script>
-  <script src="assets/vendor/typed.js/typed.umd.js"></script>
-  <script src="assets/vendor/purecounter/purecounter_vanilla.js"></script>
-  <script src="assets/vendor/waypoints/noframework.waypoints.js"></script>
-  <script src="assets/vendor/glightbox/js/glightbox.min.js"></script>
-  <script src="assets/vendor/imagesloaded/imagesloaded.pkgd.min.js"></script>
-  <script src="assets/vendor/isotope-layout/isotope.pkgd.min.js"></script>
-  <script src="assets/vendor/swiper/swiper-bundle.min.js"></script>
 
-  <!-- Main JS File -->
-  <script src="assets/js/main.js"></script>
+  <div class="scroll-bar">
+    <div class="green-bar"></div>
+
+<div class="scroll-wrapper">
+    <div class="scroll-track" id="scrollTrack">
+        <span>⭐ App Design</span>
+        <span>⭐ Website Design</span>
+        <span>⭐ Dashboard</span>
+        <span>⭐ Wireframe</span>
+    </div>
+</div>
+</div>
+
+
+
+
+  <section class="container services-section">
+    <div class="services-header">
+        <div class="headings">
+            <p class="subheading"><span class="highlight">⎯</span> Services</p>
+        <h2 class="services-title"><span class="highlight">Services </span>I Provide</h2>
+        </div>
+        <button class="button">View All Services</button>
+    </div>
+
+
+    <div class="service-slider">
+        <div class="service-card">
+            <img src="assets/img/php-icon.png" />
+            <h3>PHP & Laravel</h3>
+            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do...</p>
+            <span class="learn-more">Learn more →</span>
+        </div>
+
+
+        <div class="service-card">
+            <img src="assets/img/shopify-icon.png" />
+            <h3>Application Design</h3>
+            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do...</p>
+            <span class="learn-more">Learn more →</span>
+        </div>
+
+
+        <div class="service-card">
+            <img src="assets/img/wix-icon.png" />
+            <h3>Website Design</h3>
+            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do...</p>
+            <span class="learn-more">Learn more →</span>
+        </div>
+    </div>
+</section>
+
+
+
+  <!-- About Section -->
+<section class="about-section">
+  <div class="about-container">
+
+    <div class="about-left">
+      <div class="img-circle">
+        <img src="assets\img\Untitled design (2).jpg" alt="profile" />
+      </div>
+    </div>
+
+    <div class="about-right">
+      <p class="about-label">~ About Me</p>
+      <h2 class="about-title">Who is <span>Olivia Smith?</span></h2>
+      <p class="about-desc">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
+
+      <div class="stats">
+        <div><h3>600+</h3><p>Projects Completed</p></div>
+        <div><h3>50+</h3><p>Industry Covered</p></div>
+        <div><h3>18+</h3><p>Years of Experience</p></div>
+      </div>
+
+      <div class="btn-row">
+        <a href="cv.pdf" download class="button f-button">Download CV</a>
+        <span class="signature">Olivia Smith</span>
+      </div>
+    </div>
+
+  </div>
+</section>
+
+
+
+  
+
+  <section class="gallery-section">
+
+  <div class="services-header">
+        <div class="headings">
+            <p class="subheading"><span class="highlight">⎯</span> PORTFOLIO</p>
+        <h2 class="services-title"><span class="highlight">SHOPIFY </span>projects</h2>
+        </div>
+        <button class="button">EXPLORE ALL</button>
+    </div>
+
+    <div class="gallery-grid">
+      <!-- GALLERY ITEM -->
+      <div class="gallery-item" data-full="IMAGE1-LARGE.jpg" data-link="https://example1.com">
+        <img src="assets/img/dubai-chocolate.jpg" alt="Design 1">
+        <div class="overlay">
+          <button class="zoom-btn">Zoom</button>
+          <button class="visit-btn">Visit Site</button>
+        </div>
+      </div>
+
+      <div class="gallery-item" data-full="IMAGE2-LARGE.jpg" data-link="https://example2.com">
+        <img src="assets/img/dubai-chocolate.jpg" alt="Design 2">
+        <div class="overlay">
+          <button class="zoom-btn">Zoom</button>
+          <button class="visit-btn">Visit Site</button>
+        </div>
+      </div>
+
+      <div class="gallery-item" data-full="IMAGE2-LARGE.jpg" data-link="https://example2.com">
+        <img src="assets/img/dubai-chocolate.jpg" alt="Design 2">
+        <div class="overlay">
+          <button class="zoom-btn">Zoom</button>
+          <button class="visit-btn">Visit Site</button>
+        </div>
+      </div>
+
+      <div class="gallery-item" data-full="IMAGE2-LARGE.jpg" data-link="https://example2.com">
+        <img src="assets/img/dubai-chocolate.jpg" alt="Design 2">
+        <div class="overlay">
+          <button class="zoom-btn">Zoom</button>
+          <button class="visit-btn">Visit Site</button>
+        </div>
+      </div>
+
+      <div class="gallery-item" data-full="IMAGE2-LARGE.jpg" data-link="https://example2.com">
+        <img src="assets/img/dubai-chocolate.jpg" alt="Design 2">
+        <div class="overlay">
+          <button class="zoom-btn">Zoom</button>
+          <button class="visit-btn">Visit Site</button>
+        </div>
+      </div>
+
+      <div class="gallery-item" data-full="IMAGE2-LARGE.jpg" data-link="https://example2.com">
+        <img src="assets/img/dubai-chocolate.jpg" alt="Design 2">
+        <div class="overlay">
+          <button class="zoom-btn">Zoom</button>
+          <button class="visit-btn">Visit Site</button>
+        </div>
+      </div>
+
+      <!-- Duplicate more items as needed -->
+
+    </div>
+  </section>
+
+  <!-- MODAL -->
+  <div class="modal" id="modal">
+    <img id="modalImg" src="" alt="Zoomed Image">
+  </div>
+
+
+  
+<div class="contact-wrapper container">
+
+  <!-- LEFT SIDE -->
+  <div class="left-box">
+    <h2>Let’s Talk for <span class="highlight">Your Next Projects</span></h2>
+    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt.</p>
+
+    <div class="info-item">
+      <span>📞</span> +1(406) 555‑0120
+    </div>
+
+    <div class="info-item">
+      <span>✉️</span> example@gmail.com
+    </div>
+  </div>
+
+  <!-- RIGHT SIDE FORM -->
+  <form class="contact-form">
+    <input type="text" placeholder="Your Name" required>
+    <input type="text" placeholder="Phone" required>
+    <input class="email" type="email" placeholder="Email" required>
+    <textarea placeholder="Your Message..."></textarea>
+
+    <div class="submit-btn">
+      <button type="submit">Submit ➤</button>
+    </div>
+  </form>
+
+</div>
+
+
+
+  
+<!-- <section class="reviews-section">
+  <h2>What Our Clients Say</h2>
+
+  <div class="reviews-slider">
+
+    <div class="review-box">
+      <p class="review-text">“Amazing experience! The website design was clean, modern, and perfectly aligned with our brand.”</p>
+      <p class="review-author">— John Doe</p>
+    </div>
+
+    <div class="review-box">
+      <p class="review-text">“Very professional and fast delivery. Highly recommended for ecommerce websites!”</p>
+      <p class="review-author">— Sarah Williams</p>
+    </div>
+
+    <div class="review-box">
+      <p class="review-text">“Great communication and perfect execution. My Shopify store looks amazing now!”</p>
+      <p class="review-author">— Michael Smith</p>
+    </div>
+
+  </div>
+  <button class="prev-btn">Prev</button>
+  <button class="next-btn">Next</button>
+</section> -->
+
+  <!-- ===============Footer==================== -->
+<footer id="footer" class="footer position-relative light-background">
+  <div class="container footer-container">
+
+    <div class="footer-header">
+      <h2 class="footer-title">Let’s <span class="highlight">Connect</span> there</h2>
+      <button class="button f-button">View All Blogs</button>
+    </div>
+
+
+    <div class="footer-content">
+      <div class="footer-left">
+        <div class="user-info">
+          <div class="avatar">O</div>
+          <div>
+            <h3 class="user-name">Olivia.</h3>
+            <p class="user-desc">Lorem ipsum dolor sit amet, consectetur adipiscing elit sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
+          </div>
+        </div>
+
+
+        <!-- <div class="social-icons">
+            <span>●</span>
+            <span>●</span>
+            <span>●</span>
+            <span>●</span>
+            <span>●</span>
+          </div> -->
+      </div>
+
+
+      <div class="footer-links">
+        <div class="column">
+          <h4>Navigation</h4>
+          <p>Home</p>
+          <p>Services</p>
+          <p>About</p>
+          <p>Projects</p>
+          <p>Blogs</p>
+          <p>FAQs</p>
+        </div>
+
+
+        <div class="column">
+          <h4>Contact</h4>
+          <p>+0253-456-789</p>
+          <p>www.example.com</p>
+          <p>example@gmail.com</p>
+          <p>2464 Royal Ln. Mesa,<br />New Jersey 45435</p>
+        </div>
+
+
+        <div class="column">
+          <h4>Get the latest information</h4>
+          <div class="email-box">
+            <input type="text" placeholder="Email address" />
+            <button class="send-btn">▶</button>
+          </div>
+        </div>
+      </div>
+    </div>
+
+
+  </div>
+
+
+  <!-- ==copyright text== -->
+  <div class="copyright text-center ">
+    <p>© <span>Copyright</span> <strong class="px-1 sitename">NasirKamal</strong> <span>All Rights Reserved</span>
+    </p>
+  </div>
+
+
+</footer>
+
+
+<!-- Scroll Top -->
+<a href="#" id="scroll-top" class="scroll-top d-flex align-items-center justify-content-center"><i
+    class="bi bi-arrow-up-short"></i></a>
+
+<!-- Preloader -->
+<div id="preloader"></div>
+
+<!-- jQuery -->
+<script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+<!-- Slick JS -->
+<script src="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.8.1/slick.min.js"></script>
+
+<script src="assets/js/main.js"></script>
+
+<script>
+const hamburger = document.getElementById("hamburger");
+const navLinks = document.getElementById("navLinks");
+const contactBtn = document.querySelector(".contact-btn");
+
+hamburger.addEventListener("click", () => {
+    navLinks.classList.toggle("show");
+    contactBtn.classList.toggle("show");
+});
+</script>
 
 </body>
 
