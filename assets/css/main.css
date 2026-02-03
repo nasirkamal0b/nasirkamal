@@ -428,17 +428,29 @@ footer{
   @media (max-width: 600px) {
     .footer-header {
       flex-direction: column;
+      align-items: baseline;    
       gap: 15px;
-      text-align: center;
+      text-align: left;
     }
 
     .footer-left {
-      text-align: center;
+      text-align: left;
       margin: auto;
     }
 
+    .footer-title, .footer-title .highlight{
+      font-size: 38px;;
+    }
+
+    .avatar{
+      width: 50px;
+      height: 50px;
+    }
+
     .user-info {
-      justify-content: center;
+      flex-direction: column;
+      gap: 20px;
+      text-align: left;
     }
 
     .social-icons {
@@ -605,7 +617,11 @@ footer{
   .hero-image{
     margin: 0;
   }
+  .desc{
+    width: 100%;
+  }
   .btn-group{
+    flex-direction: column;
     justify-content: center;
   }
 }
@@ -761,7 +777,6 @@ footer{
     grid-template-columns: 1fr 1fr;
     align-items: center;
     gap: 40px;
-    max-width: 1200px;
     margin: auto;
   }
 
@@ -897,15 +912,15 @@ footer{
     .gallery-item {
       position: relative;
       overflow: hidden;
-      border-radius: 12px;
+      border-radius: 15px;
       cursor: pointer;
-      height: 500px;
     }
 
     .gallery-item img {
       width: 100%;
       height: 100%;
       display: block;
+      object-fit: cover;
       transition: transform 0.3s ease;
     }
 
@@ -971,7 +986,7 @@ footer{
 
     @media (max-width: 900px) {
       .gallery-grid {
-      grid-template-columns: repeat(2,  1fr);
+      grid-template-columns: 1fr;
       gap: 18px;
       .gallery-item{
         height: 100%;
