@@ -709,7 +709,7 @@ footer{
 
 .service-card {
   width: 100%;
-  max-width: 397px;
+  max-width: 380px;
   background: var(--primary-color);
   padding: 35px 25px; 
   border-radius: 14px;
