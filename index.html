@@ -30,13 +30,12 @@
         <span>NASIR KAMAL.</span>
       </div>
 
-      <ul class="nav-links" id="navLinks">
-        <li><a class="active" href="#">Home</a></li>
-        <li><a href="#services-section">Services</a></li>
-        <li><a href="#about-section">About</a></li>
-        <li><a href="#project-gallery">Projects</a></li>
-        <!-- <li><a href="#">Blogs</a></li>
-            <li><a href="#">Testimonials</a></li> -->
+      <ul class="nav-links">
+        <li><a href="/" data-page="home">Home</a></li>
+        <li><a href="Portfolio.html" data-page="portfolio">Portfolio</a></li>
+        <li><a href="/#services-section" data-section="services-section">Services</a></li>
+        <li><a href="/#about-section" data-section="about-section">About</a></li>
+        <li><a href="#contact" data-section="contact">Contact</a></li>
       </ul>
 
       <a href="http://wa.me/923150841514" class="contact-btn">Contact Me</a>
@@ -60,7 +59,8 @@
       </h1>
 
       <p class="desc">
-        I’m a Shopify-focused Web Designer & Developer with 3+ years of experience helping brands turn ideas into clean, scalable, and conversion-driven websites. I work with startups and growing businesses worldwide.
+        I’m a Shopify-focused Web Designer & Developer with 3+ years of experience helping brands turn ideas into clean,
+        scalable, and conversion-driven websites. I work with startups and growing businesses worldwide.
       </p>
 
       <div class="btn-group">
@@ -137,7 +137,8 @@
       <div class="service-card">
         <img src="assets/img/php-icon.png" />
         <h3>PHP & Laravel</h3>
-        <p>Custom web solutions using PHP & Laravel. Secure, scalable back-end development for dashboards, APIs, custom features, and dynamic web applications built with clean and maintainable code.</p>
+        <p>Custom web solutions using PHP & Laravel. Secure, scalable back-end development for dashboards, APIs, custom
+          features, and dynamic web applications built with clean and maintainable code.</p>
         <span class="learn-more">Learn more →</span>
       </div>
 
@@ -145,7 +146,8 @@
       <div class="service-card">
         <img src="assets/img/shopify-icon.png" />
         <h3>SHOPIFY DEVELOPMENT</h3>
-        <p>High-performing Shopify stores built for conversions. From custom themes and advanced sections to speed optimization and app integrations — I create scalable Shopify solutions that grow with your business.</p>
+        <p>High-performing Shopify stores built for conversions. From custom themes and advanced sections to speed
+          optimization and app integrations — I create scalable Shopify solutions that grow with your business.</p>
         <span class="learn-more">Learn more →</span>
       </div>
 
@@ -153,7 +155,8 @@
       <div class="service-card">
         <img src="assets/img/wix-icon.png" />
         <h3>WIX WEBSITE DESIGN</h3>
-        <p>Modern, responsive Wix websites designed using Wix Editor & Wix Studio. Clean layouts, smooth animations, and SEO-friendly structure tailored for brands that want flexibility without sacrificing quality.</p>
+        <p>Modern, responsive Wix websites designed using Wix Editor & Wix Studio. Clean layouts, smooth animations, and
+          SEO-friendly structure tailored for brands that want flexibility without sacrificing quality.</p>
         <span class="learn-more">Learn more →</span>
       </div>
     </div>
@@ -175,7 +178,11 @@
       <div class="about-right">
         <p class="about-label">~ About Me</p>
         <h2 class="about-title">Who is <span>Nasir Kamal</span></h2>
-        <p class="about-desc">I’m a passionate Shopify and Web Designer who believes that good design is more than visuals it’s about solving problems. With a strong background in Shopify, Wix, HTML, CSS, JavaScript, PHP, and Laravel, I bridge the gap between design and development to create websites that are both beautiful and functional. I focus on long-term solutions, clean code, and designs that actually convert visitors into customers.</p>
+        <p class="about-desc">I’m a passionate Shopify and Web Designer who believes that good design is more than
+          visuals it’s about solving problems. With a strong background in Shopify, Wix, HTML, CSS, JavaScript, PHP, and
+          Laravel, I bridge the gap between design and development to create websites that are both beautiful and
+          functional. I focus on long-term solutions, clean code, and designs that actually convert visitors into
+          customers.</p>
 
         <div class="stats">
           <div>
@@ -205,74 +212,81 @@
 
 
 
-  <section id="project-gallery" class="gallery-section container">
+  <section id="project-gallery" class="gallery-section container portfolio">
 
     <div class="services-header">
       <div class="headings">
         <p class="subheading"><span class="highlight">⎯</span> PORTFOLIO (password: 0)</p>
         <h2 class="services-title"><span class="highlight">SHOPIFY </span>projects</h2>
       </div>
-      <button class="button">EXPLORE ALL</button>
+      <a href="Portfolio.html"><button class="button">EXPLORE ALL</button></a>
     </div>
 
-    <div class="gallery-grid">
-      <!-- GALLERY ITEM -->
+    <div class="cards">
 
-      <div class="gallery-item" data-full="assets/img/aamnascollection.png" data-link="https://aamnascollection.com/">
-        <img src="assets/img/aamnascollection.png" alt="Design 2">
-        <div class="overlay">
-          <button class="zoom-btn">Zoom</button>
-          <button class="visit-btn">Visit Site</button>
+      <!-- CARD 5 -->
+      <div class="card" onclick="openPopup('assets/project-image/marsh-pine.mp4', 'video')">
+        <div class="image-wrapper">
+          <img src="assets/project-image/marsh-pine.png" alt="Project 5">
         </div>
+        <h3>Marsh Pine</h3>
       </div>
 
-      <div class="gallery-item" data-full="assets/img/Minimalist Website Launch Computer Mockup Instagram Post (1).png" data-link="https://kamal-prints.myshopify.com/">
-        <img src="assets/img/Minimalist Website Launch Computer Mockup Instagram Post (1).png" alt="Design 1">
-        <div class="overlay">
-          <button class="zoom-btn">Zoom</button>
-          <button class="visit-btn">Visit Site</button>
+      <!-- CARD 6 -->
+      <div class="card" onclick="openPopup('assets/project-image/elme.mp4', 'video')">
+        <div class="image-wrapper">
+          <img src="assets/project-image/elmestudios.png" alt="Project 6">
         </div>
+        <h3>Elme Studios</h3>
       </div>
 
-      <div class="gallery-item" data-full="assets/img/infinitevantage.png" data-link="https://infinite-vantage.myshopify.com/">
-        <img src="assets/img/infinitevantage.png" alt="Design 2">
-        <div class="overlay">
-          <button class="zoom-btn">Zoom</button>
-          <button class="visit-btn">Visit Site</button>
+      <!-- CARD 1 -->
+      <div class="card" onclick="openPopup('assets/project-image/baldii-store.png')">
+        <div class="image-wrapper">
+          <img src="assets/project-image/baldii-store.png" alt="Project 1">
         </div>
+        <h3>Baldii Store</h3>
       </div>
 
-      <div class="gallery-item" data-full="assets/img/Minimalist Website Launch Computer Mockup Instagram Post (2).png" data-link="https://kamalcloths.myshopify.com/">
-        <img src="assets/img/Minimalist Website Launch Computer Mockup Instagram Post (2).png" alt="Design 2">
-        <div class="overlay">
-          <button class="zoom-btn">Zoom</button>
-          <button class="visit-btn">Visit Site</button>
+      <!-- CARD 2 -->
+      <div class="card" onclick="openPopup('assets/project-image/sidelinestudio-co-myshopify.png')">
+        <div class="image-wrapper">
+          <img src="assets/project-image/sidelinestudio-co-myshopify.png" alt="Project 2">
         </div>
+        <h3>Kamal Prints</h3>
+      </div>
+
+      <!-- CARD 3 -->
+      <div class="card" onclick="openPopup('assets/project-image/steel23.png')">
+        <div class="image-wrapper">
+          <img src="assets/project-image/steel23.png" alt="Project 3">
+        </div>
+        <h3>Steel 23</h3>
+      </div>
+
+      <!-- CARD 4 -->
+      <div class="card" onclick="openPopup('assets/project-image/baarco-co-za.png')">
+        <div class="image-wrapper">
+          <img src="assets/project-image/baarco-co-za.png" alt="Project 4">
+        </div>
+        <h3>Baarco</h3>
       </div>
 
 
-      <div class="gallery-item" data-full="assets/img/kamal-jewellers.png" data-link="https://kamaljewellers.myshopify.com/">
-        <img src="assets/img/kamal-jewellers.png" alt="Design 2">
-        <div class="overlay">
-          <button class="zoom-btn">Zoom</button>
-          <button class="visit-btn">Visit Site</button>
-        </div>
-      </div>
-
-      
-
-      <div class="gallery-item" data-full="assets/img/itsheaven.png" data-link="https://itsheaven-y.myshopify.com/">
-        <img src="assets/img/itsheaven.png" alt="Design 2">
-        <div class="overlay">
-          <button class="zoom-btn">Zoom</button>
-          <button class="visit-btn">Visit Site</button>
-        </div>
-      </div>
-
-      <!-- Duplicate more items as needed -->
 
     </div>
   </section>
+  <!-- POPUP -->
+  <div class="popup" id="popup">
+    <span class="close" onclick="closePopup()">&times;</span>
+    <!-- IMAGE -->
+    <img id="popup-img" style="display:none; max-width:90%; max-height:90%; border-radius:10px;">
+
+    <!-- VIDEO -->
+    <video id="popup-video" controls style="display:none; max-width:90%; max-height:90%; border-radius:10px;">
+      <source id="video-source" src="">
+    </video>
+  </div>
 
   <!-- MODAL -->
   <div class="modal" id="modal">
@@ -286,27 +300,30 @@
     <!-- LEFT SIDE -->
     <div class="left-box">
       <h2>Let’s Talk for <span class="highlight">Your Next Projects</span></h2>
-      <p>Have a Shopify project in mind or need help improving your store? Let’s discuss your ideas and turn them into a powerful online presence.</p>
+      <p>Have a Shopify project in mind or need help improving your store? Let’s discuss your ideas and turn them into a
+        powerful online presence.</p>
 
       <div class="info-item">
-        <span>📞</span> +92(315) 084-1514
+        <span><img src="assets/img/icons/old-typical-phone.png" alt="" width="20px"></span> +92(315) 0841514
       </div>
 
       <div class="info-item">
-        <span>✉️</span> nasirkamal2007@gmail.com
+        <span><img src="assets/img/icons/email.png" alt="" width="20px"></span> nasirkamal2007@gmail.com
       </div>
     </div>
 
     <!-- RIGHT SIDE FORM -->
     <form class="contact-form">
-      <input type="text" placeholder="Your Name" required>
-      <input type="text" placeholder="Phone" required>
-      <input class="email" type="email" placeholder="Email" required>
-      <textarea placeholder="Your Message..."></textarea>
+
+      <input type="text" id="name" placeholder="Your Name" required>
+      <input type="text" id="phone" placeholder="Phone" required>
+      <input class="email" type="email" id="email" placeholder="Email" required>
+      <textarea id="message" placeholder="Your Message..." required></textarea>
 
       <div class="submit-btn">
-        <button type="submit">Submit ➤</button>
+        <button type="button" onclick="sendWhatsApp()">Send via WhatsApp</button>
       </div>
+
     </form>
 
   </div>
@@ -345,7 +362,7 @@
 
       <div class="footer-header">
         <h2 class="footer-title">Let’s <span class="highlight">Connect</span> there</h2>
-        <button class="button f-button">Contact US</button>
+        <a href="http://wa.me/923150841514" target="_blank"><button class="button f-button">Contact US</button></a>
       </div>
 
 
@@ -355,7 +372,8 @@
             <div class="avatar">N</div>
             <div>
               <h3 class="user-name">NASIR KAMAL.</h3>
-              <p class="user-desc">Creative Shopify Designer & Developer helping brands grow through clean design and smart development.</p>
+              <p class="user-desc">Creative Shopify Designer & Developer helping brands grow through clean design and
+                smart development.</p>
             </div>
           </div>
 
@@ -418,12 +436,21 @@
   <!-- Preloader -->
   <div id="preloader"></div>
 
+  <!-- Navbar Script -->
+  <script src="assets/js/navbar.js"></script>
+
   <!-- jQuery -->
   <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
   <!-- Slick JS -->
   <script src="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.8.1/slick.min.js"></script>
 
   <script src="assets/js/main.js"></script>
+
+  <!-- WhatsApp Form Script -->
+  <script src="assets/js/whatsapp-form.js"></script>
+
+  <!-- Cards Script -->
+  <script src="assets/js/cards.js"></script>
 
   <script>
     const hamburger = document.getElementById("hamburger");
@@ -435,6 +462,7 @@
       contactBtn.classList.toggle("show");
     });
   </script>
+
 
 </body>
 
