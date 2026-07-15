@@ -193,6 +193,13 @@ a {
   justify-content: space-between;
 }
 
+.navbar .logo {
+  font-size: 20px;
+  font-weight: 600;
+  color: var(--background-color);
+  text-decoration: none;
+}
+
 /* LOGO */
 .logo {
   display: flex;
