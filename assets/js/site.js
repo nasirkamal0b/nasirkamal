@@ -89,7 +89,7 @@
         <div><h4>Navigation</h4><ul>
           <li><a href="${h('services')}">Services</a></li><li><a href="${h('about')}">About</a></li><li><a href="${h('work')}">Projects</a></li><li><a href="${h('contact')}">Contact</a></li></ul></div>
         <div><h4>Portfolio</h4><ul>
-          <li><a href="shopify-builds.html">Shopify builds</a></li><li><a href="wix-builds.html">Wix builds</a></li><li><a href="wordpress-builds.html">WordPress builds</a></li><li><a href="assets/NASIR-KAMAL.cv.pdf" download>Download CV</a></li></ul></div>
+          <li><a href="shopify-builds.html">Shopify builds</a></li><li><a href="wix-builds.html">Wix builds</a></li><li><a href="wordpress-builds.html">WordPress builds</a></li><li><a href="assets/Nasir-Kamal-CV.pdf" download>Download CV</a></li></ul></div>
         <div><h4>Contact</h4><ul>
           <li><a href="tel:${CONFIG.phone.replace(/\s/g, '')}">${CONFIG.phone}</a></li>
           <li><a href="mailto:${CONFIG.email}">${CONFIG.email}</a></li>
